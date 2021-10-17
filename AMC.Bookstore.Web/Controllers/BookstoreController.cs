@@ -28,7 +28,7 @@ namespace AMC.Bookstore.Web.Controllers
         [Produces("application/json")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ILinkedResourceCollection<Book>))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public IActionResult Home(int pageNumber, int resultsPerPage)
+        public IActionResult Home()
         {
             var books = bookstoreService.GetHomePageListing();
             return Ok(books);
