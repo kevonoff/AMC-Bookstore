@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AMC.Bookstore.DataAccess/AMC.Bookstore.DataAccess.csproj" />
+    <ProjectReference Include="../AMC.Bookstore.Models/AMC.Bookstore.Models.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.20" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AMC.Bookstore.Services/AMC.Bookstore.Services.csproj" />
+    <ProjectReference Include="../AMC.Bookstore.Models/AMC.Bookstore.Models.csproj" />
+  </ItemGroup>
+
+
+</Project>
